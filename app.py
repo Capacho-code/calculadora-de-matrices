@@ -153,3 +153,26 @@ else:
         st.warning("Como Δs = 0 y todos los Δ son 0, el sistema tiene soluciones infinitas.")
       else:
         st.error("Como Δs = 0, el sistema no tiene solución.")
+
+# --- SECCIÓN DE APOYO Y DONACIONES EN LA BARRA LATERAL ---
+st.sidebar.markdown("---")
+st.sidebar.subheader("☕ ¿Te salvó la tarea?")
+st.sidebar.write(
+    "Si esta calculadora te ahorró horas de dolor de cabeza, apoya el proyecto"
+    " con una colaboración voluntaria:"
+)
+
+# 1. Botón directo de Mercado Pago
+st.sidebar.markdown(
+    "[💳 Pagar con Mercado"
+    " Pago](https://link.mercadopago.com.co/calculadoradematriz)"
+)
+
+st.sidebar.markdown("---")
+
+# 2. Sección de Nequi / Daviplata con tu número
+st.sidebar.write("📱 **O por Nequi / Daviplata:**")
+st.sidebar.write("Número: `3128754385`")
+
+# Si ya guardaste tu imagen del QR de Nequi en la carpeta como 'qr_nequi.png', descomenta la línea de abajo:
+# st.sidebar.image("qr_nequi.png", caption="Escanea para apoyar")

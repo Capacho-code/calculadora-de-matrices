@@ -164,14 +164,14 @@ st.sidebar.write(
 
 # 1. Botón directo de Mercado Pago
 st.sidebar.markdown(
-    "[💳 Pagar con Mercado"
+    "[💳 Donar con Mercado"
     " Pago](https://link.mercadopago.com.co/calculadoradematriz)"
 )
 
 st.sidebar.markdown("---")
 
 # 2. Sección de Nequi / Daviplata con tu número
-st.sidebar.write("📱 **O por Nequi / Daviplata:**")
+st.sidebar.write("📱 **O por Nequi:**")
 st.sidebar.write("Número: `3128754385`")
 
 # Si ya guardaste tu imagen del QR de Nequi en la carpeta como 'qr_nequi.png', descomenta la línea de abajo:

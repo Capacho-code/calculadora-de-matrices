@@ -164,15 +164,13 @@ st.sidebar.write(
 
 # 1. Botón directo de Mercado Pago
 st.sidebar.markdown(
-    "[💳 Donar con Mercado"
+    "[💳 Pagar con Mercado"
     " Pago](https://link.mercadopago.com.co/calculadoradematriz)"
 )
 
 st.sidebar.markdown("---")
 
-# 2. Sección de Nequi / Daviplata con tu número
-st.sidebar.write("📱 **O por Nequi:**")
-st.sidebar.write("Número: `3128754385`")
-
-# Si ya guardaste tu imagen del QR de Nequi en la carpeta como 'qr_nequi.png', descomenta la línea de abajo:
-# st.sidebar.image("qr_nequi.png", caption="Escanea para apoyar")
+# 2. Sección limpia solo con el código QR de Nequi
+st.sidebar.write("📱 **O escanea con tu Nequi:**")
+# Asegúrate de guardar tu imagen QR en la misma carpeta del proyecto con este nombre exacto:
+st.sidebar.image("qr_nequi.png", caption="¡Gracias por tu apoyo!")

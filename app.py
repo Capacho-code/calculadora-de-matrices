@@ -13,7 +13,7 @@ if opcion == "Sistema 2x2":
 
   col1, col2, col3 = st.columns(3)
   with col1:
-    a = st.number_input("a", value=0.0, format='%g', placeholder=0)
+    a = st.number_input("a", value=0.0, format='%g', placeholder="0")
     d = st.number_input("d", value=0.0)
   with col2:
     b = st.number_input("b", value=0.0)

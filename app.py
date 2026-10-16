@@ -164,7 +164,7 @@ st.sidebar.write(
 
 # 1. Botón directo de Mercado Pago
 st.sidebar.markdown(
-    "[💳 Pagar con Mercado"
+    "[💳 Donar con Mercado"
     " Pago](https://link.mercadopago.com.co/calculadoradematriz)"
 )
 

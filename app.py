@@ -13,14 +13,14 @@ if opcion == "Sistema 2x2":
 
   col1, col2, col3 = st.columns(3)
   with col1:
-    a = st.number_input("a", value=0.0, format='%g', placeholder="0")
-    d = st.number_input("d", value=0.0)
+    a = st.number_input("a", value=0.0, format='%g')
+    d = st.number_input("d", value=0.0, format='%g')
   with col2:
-    b = st.number_input("b", value=0.0)
-    e = st.number_input("e", value=0.0)
+    b = st.number_input("b", value=0.0, format='%g')
+    e = st.number_input("e", value=0.0, format='%g')
   with col3:
-    c = st.number_input("c", value=0.0)
-    f = st.number_input("f", value=0.0)
+    c = st.number_input("c", value=0.0, format='%g')
+    f = st.number_input("f", value=0.0, format='%g')
 
   if st.button("Resolver 2x2"):
     # Cálculos de los determinantes
@@ -70,35 +70,35 @@ else:
   # Fila 1
   c1, c2, c3, c4 = st.columns(4)
   with c1:
-    a = st.number_input("a", value=0.0)
+    a = st.number_input("a", value=0.0, format='%g')
   with c2:
-    b = st.number_input("b", value=0.0)
+    b = st.number_input("b", value=0.0, format='%g')
   with c3:
-    c = st.number_input("c", value=0.0)
+    c = st.number_input("c", value=0.0, format='%g')
   with c4:
-    d = st.number_input("d", value=0.0)
+    d = st.number_input("d", value=0.0, format='%g')
 
   # Fila 2
   c1, c2, c3, c4 = st.columns(4)
   with c1:
-    e = st.number_input("e", value=0.0)
+    e = st.number_input("e", value=0.0, format='%g')
   with c2:
-    f = st.number_input("f", value=0.0)
+    f = st.number_input("f", value=0.0, format='%g')
   with c3:
-    g = st.number_input("g", value=0.0)
+    g = st.number_input("g", value=0.0, format='%g')
   with c4:
-    h = st.number_input("h", value=0.0)
+    h = st.number_input("h", value=0.0, format='%g')
 
   # Fila 3
   c1, c2, c3, c4 = st.columns(4)
   with c1:
-    i = st.number_input("i", value=0.0)
+    i = st.number_input("i", value=0.0, format='%g')
   with c2:
-    j = st.number_input("j", value=0.0)
+    j = st.number_input("j", value=0.0, format='%g')
   with c3:
-    k = st.number_input("k", value=0.0)
+    k = st.number_input("k", value=0.0, format='%g')
   with c4:
-    l = st.number_input("l", value=0.0)
+    l = st.number_input("l", value=0.0, format='%g')
 
   if st.button("Resolver 3x3"):
     delta_s = a * (f * k - j * g) - b * (e * k - i * g) + c * (e * j - i * f)
